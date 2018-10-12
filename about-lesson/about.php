@@ -20,6 +20,7 @@ $about = 'junior php';
         }
         h1 {
             text-align: center;
+            margin-bottom: 30px;
         }
         h2 {
             text-align: center;
@@ -28,11 +29,6 @@ $about = 'junior php';
 </head>
 <body>
 <h1>Небольшая справка</h1>
-<p>
-    <br>
-    <br>
-
-</p>
 <h2>Данные пользователя системы - <?= $name ?></h2>
 <dl>
     <dt>Имя</dt>
