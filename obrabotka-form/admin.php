@@ -6,7 +6,7 @@ if (!empty($_FILES) || array_key_exists('test', $_FILES)) {
     echo 'File ' . '<b>' .  $_FILES['test']['name'] . '</b>' . ' is uploaded' . '<br>';
     header('Location: list.php',true, 301);
 } else {
-    echo 'File is not uploaded';
+    echo 'Загрузите JSON файл' . '<br>';
 }
 
 ?>
@@ -19,19 +19,13 @@ if (!empty($_FILES) || array_key_exists('test', $_FILES)) {
      <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Make test great again</title>
+    <title>Тест</title>
 </head>
 <body>
 <br>
 <form action="admin.php" method="POST" enctype="multipart/form-data" >
-
-    <div> Upload JSON FILE</div>
-
     <input type="file" name="test">
-
-    <input type="submit" value="Upload">
-
-
+    <input type="submit" value="Загрузить">
 </form>
 <br><hr>
 <a href="list.php">Перейти к списку загруженных файлов</a>

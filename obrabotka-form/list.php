@@ -17,7 +17,7 @@ $i=0;
 </head>
 <body>
 
-<br><b>The list of uploaded files:</b><br><br>
+<br><b>Список загруженных файлов:</b><br><br>
 
 <?php foreach($list as $files) { $text = 'test.php' . '?q=' . substr($files,6); ?>
 <?php $i++; echo $i . ') ' . '<a ' . 'href=' . "$text" . '>' . substr($files,6) . '</a>' . '<br>'; }?>

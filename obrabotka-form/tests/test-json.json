@@ -35,7 +35,7 @@
 
 	},
 	{
-		"question": "Что значит код состояния 200?",
+		"question": "Что значит код ответа сервера 200?",
 		"answers": [{
 				"q1": "Все хорошо"
 			},
@@ -53,39 +53,39 @@
 
 	},
 	{
-		"question": "Who created PHP",
+		"question": "Как расшифровывается аббревиатура PHP?",
 		"answers": [{
-				"q1": "Zeev Suraski"
+				"q1": "Project Hyper Programming"
 			},
 			{
-				"q2": "Andi Gutmans"
+				"q2": "Personal Home Page Tools"
 			},
 			{
-				"q3": "Bill Gates"
+				"q3": "Proper HTTP Page"
 			},
 			{
-				"q4": "Rasmus Lerdorf"
+				"q4": "Park Host Panel"
 			}
 		],
-		"correct": "Rasmus Lerdorf"
+		"correct": "Personal Home Page Tools"
 
 	},
 	{
-		"question": "What animal is usually associated with PHP?",
+		"question": "Какое животное изображено на логотипе PHP?",
 		"answers": [{
-				"q1": "Gorilla"
+				"q1": "Горилла"
 			},
 			{
-				"q2": "Giraffe"
+				"q2": "Жираф"
 			},
 			{
-				"q3": "Elephant"
+				"q3": "Слон"
 			},
 			{
-				"q4": "Donkey"
+				"q4": "Осёл"
 			}
 		],
-		"correct": "Elephant"
+		"correct": "Слон"
 
 	}
 ]
